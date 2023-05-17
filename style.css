@@ -1,0 +1,86 @@
+:root{
+    --corpendente:#8FD14F;
+    --corexcluida:#EB4045;
+    --corconcluida:#0CA789;
+    --corbranca:white;
+}
+h1{
+    text-align: center;
+    padding-left:  45px;
+    margin: 40px;
+    
+}
+
+a{
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    
+}
+.Pendentes{
+    background-color: var(--corpendente);
+    
+}
+    
+.Concluídas{
+    background-color: var(--corconcluida);
+   
+}
+
+.Excluídas{
+    background-color: var(--corexcluida);
+   
+}
+
+.Excluídas, .Concluídas, .Pendentes{
+    color: var(--corbranca);
+    margin: 6px;
+     
+}
+ul{
+    text-align: center;
+    
+}
+
+div{
+    width: 500px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 3px black;
+    
+}
+div:nth-child(even){
+    background-color:var(--corbranca);
+    
+}
+
+div:hover{
+    transform: scale(1.1);
+    
+}
+
+ ul .alerta{
+    padding: 9px;
+    border-radius: 5px;
+    color: var(--corbranca);
+    margin: 6px;
+   
+ }
+
+ .index1{
+    background-color: var(--corpendente);
+    
+ }
+
+ .concluidas1{
+    background-color:var(--corconcluida);
+    
+ }
+
+ .excluidas1{
+    background-color: var(--corexcluida);
+    
+ }
